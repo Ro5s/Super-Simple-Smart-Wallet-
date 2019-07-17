@@ -1,2 +1,2 @@
-# Super-Simple-Smart-Wallet-
-Multisignature wallets in few lines of Solidity
+# SSS Wallet
+Practical Multisignature Wallets in laconic Solidity 🐍🐍🐍

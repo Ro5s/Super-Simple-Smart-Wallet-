@@ -164,7 +164,6 @@ function signTransfer() public inState(State.Proposed) {
     state = State.Initialized;
     signatures[lockedSigner] = signatures[lockedSigner].add(1); 
     transferee.transfer(address(this).balance);
-    emit transferProposed(transferee);
     emit signatureUnlocked(lockedSigner);
   }
 }

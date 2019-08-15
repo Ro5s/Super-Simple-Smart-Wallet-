@@ -181,7 +181,7 @@ interface IERC20 {
     event Approval(address indexed owner, address indexed spender, uint256 value);
 }
 
-// @title Super Simple Smart Wallet for 2/3 MultiSignature Ether Transfers (Ξ)
+// @title Super Simple Smart Wallet for 2/3 MultiSignature Transactions (Ether + Token Withdrawals, String Proposals)
 // @author R. Ross Campbell
 
 contract SSSWallet {
